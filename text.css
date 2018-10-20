@@ -1,0 +1,38 @@
+html { min-height: 100vh; }
+a{
+  text-decoration: none;
+  color:black;
+}
+input{margin-left: 60px;}
+.nav-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 6em;
+    }
+.center-wrapper {
+    display: flex;
+    flex: 1 1 30%;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+   
+}
+p #text{margin: 90px;}
+img{
+  height: 300px;
+  width: 300px;
+}
+footer{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 50px;
+}
+p#borderfooter{
+  border:2px solid black;
+    padding: 5px;
+
+}
