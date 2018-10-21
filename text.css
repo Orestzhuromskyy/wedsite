@@ -1,29 +1,69 @@
 html { min-height: 100vh; }
 a{
   text-decoration: none;
-  color:black;
+  color:white;
 }
-input{margin-left: 60px;}
+#menu{
+  margin-left: 120px;
+  margin-right: 120px;
+  font-family: 'Charmonman', cursive;
+  font-family: 'Oxygen', sans-serif;
+}
+#novelty{
+  margin-right: 120px;
+  font-family: 'Charmonman', cursive;
+  font-family: 'Oxygen', sans-serif;
+}
+.phone{
+  float: right;
+  margin-left: 100px;
+  font-family: 'Charmonman', cursive;
+  font-family: 'Oxygen', sans-serif;
+}
+input{margin-left: 10px;}
 .nav-wrapper {
     display: flex;
     align-items: center;
-    word-spacing: 6em;
+    background-color: #444;
+    height: 80px; 
     justify-content: space-between;
+    width:100%;
+    margin: 0 ; 
     }
+#search{
+  color:white;
+}
+#text{
+  font-family: 'Charmonman', cursive;
+}
 .center-wrapper {
     display: block;
     justify-content: center;
     align-items: center;
+    background-color: #FF2B32;
 }
+img #filadelf{
 
-img{
-  height: 300px;
-  width: 300px;
+  height: 480px;
+  width: 870px;
+}
+img #unagi-chiz{
+  height: 336px;
+  width: 405px;
+}
+img #sake-maki{
+  height: 372px;
+  width: 480px;
+}
+img #kalifornia{
+  height: 458px;
+  width: 458px;
+  border: none;
 }
 .main{
     display: flex;
     align-items: center;
-    margin-top: 100px;
+    
     justify-content: space-around;
     align-items: center;
 }
@@ -34,6 +74,13 @@ img{
     align-items: center;
     flex-direction: row-reverse;
 }
+.main-item:nth-child(2n+1) {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
 footer{
     display: flex;
     justify-content: center;
@@ -43,7 +90,7 @@ footer{
     bottom: 0;
     width: 100%;
     height: 80px;
-    background-color: #c3c3c3;
+    background-color: #444;
 }
 p#footer-border{
     border:2px solid black;
