@@ -18,7 +18,7 @@ body {
   transition-duration: 0.3s;
 }
 
-#menu: hover {
+#menu:hover {
   color: black;
 }
 
@@ -28,7 +28,7 @@ body {
   transition-duration: 0.3s;
 }
 
-#novelty: hover {
+#novelty:hover {
   color: black;
 }
 
@@ -37,7 +37,7 @@ body {
   transition-duration: 0.3s;
 }
 
-#reviews: hover {
+#reviews:hover {
   color: black;
 }
 
