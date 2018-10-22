@@ -2,6 +2,7 @@ html { min-height: 100vh; }
 a{
   text-decoration: none;
   color:white;
+  font-size: 26px;
 }
 body{
   margin:0;
@@ -9,21 +10,48 @@ body{
 #menu{
   margin-left: 120px;
   margin-right: 120px;
-  font-family: 'Charmonman', cursive;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Niramit', sans-serif;
+  transition-duration: 0.3s;
+
+}
+#menu:hover{
+  color: black;
 }
 #novelty{
   margin-right: 120px;
-  font-family: 'Charmonman', cursive;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Niramit', sans-serif;
+  transition-duration: 0.3s;
+}
+#novelty:hover{
+  color: black;
+}
+#reviews{
+  font-family: 'Niramit', sans-serif;
+  transition-duration: 0.3s;
+}
+#reviews:hover{
+  color: black;
 }
 .phone{
   float: right;
   margin-left: 100px;
-  font-family: 'Charmonman', cursive;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Niramit', sans-serif;
+  transition-duration: 0.3s;
 }
-input{margin-left: 10px;}
+input{
+  margin-left: 10px;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #3d3d3d;
+  margin-right: 30px;
+  border-color: white;
+  color:white;
+
+
+
+
+}
 .nav-wrapper {
     display: flex;
     align-items: center;
@@ -31,11 +59,9 @@ input{margin-left: 10px;}
     height: 80px; 
     justify-content: space-between;
     }
-#search{
-  color:white;
-}
+
 #text{
-  font-family: 'Charmonman', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 .center-wrapper {
     display: block;
@@ -43,24 +69,8 @@ input{margin-left: 10px;}
     align-items: center;
     background-color: #fff;
 }
-img #filadelf{
 
-  height: 480px;
-  width: 870px;
-}
-img #unagi-chiz{
-  height: 336px;
-  width: 405px;
-}
-img #sake-maki{
-  height: 372px;
-  width: 480px;
-}
-img #kalifornia{
-  height: 458px;
-  width: 458px;
-  border: none;
-}
+
 .main-item{
     display: flex;
     margin-top: 50px;
