@@ -1,42 +1,53 @@
-html { min-height: 100vh; }
+html { min-height: 100vh; 
+}
+
 a {
   text-decoration: none;
   color: white;
   font-size: 26px;
 }
+
 body {
   margin: 0;
 }
+
 #menu {
   margin-left: 120px;
   margin-right: 120px;
   font-family: 'Niramit', sans-serif;
   transition-duration: 0.3s;
 }
+
 #menu: hover {
   color: black;
 }
+
 #novelty {
   margin-right: 120px;
   font-family: 'Niramit', sans-serif;
   transition-duration: 0.3s;
 }
+
 #novelty: hover {
   color: black;
 }
+
 #reviews {
   font-family: 'Niramit', sans-serif;
   transition-duration: 0.3s;
 }
+
 #reviews: hover {
   color: black;
 }
+
 .phone {
   float: right;
   margin-left: 100px;
   font-family: 'Niramit', sans-serif;
   transition-duration: 0.3s;
 }
+
 input {
   margin-left: 10px;
   background: transparent;
@@ -47,6 +58,7 @@ input {
   border-color: white;
   color: white;
 }
+
 .nav-wrapper {
   display: flex;
   align-items: center;
@@ -54,15 +66,18 @@ input {
   height: 80px; 
   justify-content: space-between;
 }
+
 #text {
   font-family: 'Roboto', sans-serif;
 }
+
 .center-wrapper {
   display: block;
   justify-content: center;
   align-items: center;
   background-color: #fff;
 }
+
 .main-item {
   display: flex;
   margin-top: 50px;
@@ -70,6 +85,7 @@ input {
   align-items: center;
   flex-direction: row-reverse;
 }
+
 .main-item:nth-child(2n+1) {
   display: flex;
   align-items: center;
@@ -77,6 +93,7 @@ input {
   align-items: center;
   flex-direction: row;
 }
+
 footer {
   display: flex;
   justify-content: center;
