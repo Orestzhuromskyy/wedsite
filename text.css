@@ -20,6 +20,8 @@ body {
 
 #menu:hover {
   color: black;
+  text-decoration: none;
+  border-bottom: 2px solid green;
 }
 
 #novelty {
@@ -30,6 +32,8 @@ body {
 
 #novelty:hover {
   color: black;
+  text-decoration: none;
+  border-bottom: 2px solid green;
 }
 
 #reviews {
@@ -39,6 +43,8 @@ body {
 
 #reviews:hover {
   color: black;
+  text-decoration: none;
+  border-bottom: 2px solid green;
 }
 
 .phone {
@@ -46,6 +52,8 @@ body {
   margin-left: 100px;
   font-family: 'Niramit', sans-serif;
   transition-duration: 0.3s;
+  text-decoration: none;
+  border-bottom: 2px solid green;
 }
 
 input {
