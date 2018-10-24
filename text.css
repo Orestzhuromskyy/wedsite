@@ -112,11 +112,7 @@ footer {
 
 .main {
   display: grid;
-  grid-template-columns: 49vw 50vw;
-}
-
-.sidebar {
-  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
  #history {
@@ -131,4 +127,11 @@ footer {
 margin-top: 100px;
 text-align: center;
 font-size:50px;
+}
+
+@media (max-width: 800px) {
+    .main {
+      display: block;
+      flex-direction: column;
+    }
 }
