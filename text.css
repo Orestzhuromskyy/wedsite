@@ -51,9 +51,6 @@ body {
   float: right;
   margin-left: 100px;
   font-family: 'Niramit', sans-serif;
-  transition-duration: 0.3s;
-  text-decoration: none;
-  border-bottom: 2px solid green;
 }
 
 input {
@@ -113,3 +110,25 @@ footer {
   background-color: #444;
 }
 
+.main {
+  display: grid;
+  grid-template-columns: 49vw 50vw;
+}
+
+.sidebar {
+  display: grid;
+}
+
+ #history {
+  font-size:17px;
+  text-align: center;
+  word-spacing: 0.5px;
+  letter-spacing: 0.1em;
+  font-family: 'Raleway', sans-serif;
+  line-height:2em;
+}
+#title {
+margin-top: 100px;
+text-align: center;
+font-size:50px;
+}
