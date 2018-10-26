@@ -4,7 +4,7 @@ html { min-height: 100vh;
 a {
   text-decoration: none;
   color: white;
-  font-size: 26px;
+  font-size: 1.4em;
 }
 
 body {
@@ -48,8 +48,6 @@ body {
 }
 
 .phone {
-  float: right;
-  margin-left: 100px;
   font-family: 'Niramit', sans-serif;
 }
 
@@ -133,4 +131,46 @@ font-size:50px;
     .main {
       display: block;
     }
+}
+@media (max-width: 803px) {
+  #menu {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Niramit', sans-serif;
+    transition-duration: 0.3s;
+  }
+  #novelty {
+    margin-right: 20px;
+    font-family: 'Niramit', sans-serif;
+    transition-duration: 0.3s;
+  }
+
+  #reviews {
+    font-family: 'Niramit', sans-serif;
+    transition-duration: 0.3s;
+  }
+
+  #history {
+    font-size:10px;
+    text-align: left;
+    word-spacing: 0.5px;
+    letter-spacing: 0.1em;
+    font-family: 'Raleway', sans-serif;
+    line-height:2em;
+  }
+
+  .main-item {
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .main-item > img{
+    width:400px;
+    height:400px;
+  }
+
+  .main-item:nth-child(2n+1) {
+    display: block;
+    text-align: center;
+  }
 }
